@@ -7,7 +7,7 @@ pipeline {
                 sh 'echo second step'
                 sh 'echo another step'                
                 sh '''
-                echo 'Multiline'
+                echo 'Multilinem'
                 echo 'Example'
                 '''
                 echo 'not using shell'
