@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Hello World...."
+                echo "Hello World.cxc..."
                 sh 'echo second step'
                 sh 'echo another step'                
                 sh '''
